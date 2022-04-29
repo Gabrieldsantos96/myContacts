@@ -75,10 +75,8 @@ export function useUserData(){
 
           setKontacts(localAux);
 
-          setTimeout(() => {
             setAdd(false);
-          }, 1000);
-
+    
         } catch (error) {
           console.log(error);
         }
@@ -138,9 +136,9 @@ export function useUserData(){
 
          setKontacts(localAux);
       
-         setTimeout(() => {
+    
           setEdit(false);
-        }, 1000);
+        
 
         } catch (error) {
           console.log(error);
@@ -165,10 +163,8 @@ export function useUserData(){
   
         setKontacts(localAux);
 
-        setTimeout(() => {
           setDel(false);
-        }, 1000);
-
+      
         } catch (error) {
           console.log(error);
         }
@@ -229,7 +225,7 @@ export function useUserData(){
               password:''
             })
 
-            navigate('/sign-in');
+            navigate('/');
 
           } catch(error)  {
             alert('Houve algum erro com cadastro, por favor tente novamente!');
