@@ -14,7 +14,7 @@ function Signin() {
             const token = getItem('token');
               
             if (token) {
-              navigate('/')
+              navigate('/')         
             }
           },[]);
   

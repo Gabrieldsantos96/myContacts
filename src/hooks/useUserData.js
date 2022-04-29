@@ -225,7 +225,7 @@ export function useUserData(){
               password:''
             })
 
-            navigate('/');
+            navigate('/');      
 
           } catch(error)  {
             alert('Houve algum erro com cadastro, por favor tente novamente!');
