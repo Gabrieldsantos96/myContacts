@@ -1,0 +1,78 @@
+.main {
+  max-height: 100vh ;
+  max-width: 100vw;
+
+  display: flex;
+  justify-content: center;
+}
+
+.add_button {
+  width: 235px;
+
+  background-color: #04C45C;
+  
+  margin-top: 104px;
+  margin-bottom: 32px;
+}
+
+.kontacts_bar {
+  height: 46px;
+  width: 956px;
+  background-color: #F4F0F0;
+
+  display: flex;
+  align-items: center;
+}
+
+.kontacts_bar h5 {
+  text-align:start;
+  width: 292px;
+
+  padding-inline: 10px;
+
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.all_kontacts {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  
+}
+
+.kontact {
+  width: 956px;
+  height: 46px;
+
+  all: unset;
+  background-color: #FFFAFA;
+  
+  margin: 8px 0px;
+
+  display: flex;
+  align-items: center;
+
+}
+
+.kontact span {
+  width: 292px;
+
+  text-align: start;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  padding-inline: 10px;
+  color: rgba(28, 20, 20, 0.79);
+}
+
+.icons {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+}
+.icons img {
+  margin: 8px;
+}

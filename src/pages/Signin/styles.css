@@ -1,0 +1,106 @@
+.signin_left {
+    background-image: url('../../assets/imagem_esquerda.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+    width: 50%;
+}
+
+.signin_right {
+    height: 100vh;
+    width: 50%;
+    background: white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_right {
+    width: 477px;
+    height: 338px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.items_start {
+    width: 476px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.items_start span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.items_start h2 {
+    font-weight:bold;
+    font-size: 32px;
+    line-height: 38px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.form_sign_in {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_sign_in input {
+    width: 476px;
+    height: 51px;
+
+    background: #FDFAFA;
+    border: 1px solid #E8E8E8;
+    
+    margin: 16px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.form_sign_in input:first-child {
+    margin-top: 32px;
+}
+
+.form_sign_in button {
+   
+
+    background: #04C45C;
+    
+
+    margin-top: 72px;
+}
+
+.items_center {
+    width: 475px;
+    
+    display: flex;
+    justify-content: center;
+
+    margin-top: 96px; 
+}
+
+.items_center span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 2px;
+}
+
+.items_center span:last-child {
+    color: rgb(40, 40, 131);
+}
+
+.items_center span:last-child:hover{
+    color: rgb(55, 55, 212);
+    cursor: pointer;
+}
