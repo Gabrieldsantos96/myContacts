@@ -8,14 +8,8 @@ import  { useEffect } from 'react';
 
 function Main() {
     const { 
-        navigate, 
-        form,setForm,
-        add,setAdd,
-        edit,setEdit,
-        del,setDel,teste,
-        kontacts,setKontacts,
-         handleChangeInput,
-         handleSubmit,
+       setAdd,
+        kontacts,
          loadData,deleteKontact ,editKontact} = useData();  
 
          useEffect(() => {
