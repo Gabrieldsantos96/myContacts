@@ -76,6 +76,13 @@ export function useUserData(){
           setKontacts(localAux);
 
             setAdd(false);
+
+            setForm({
+              name:'',
+              email:'',
+              password:'',
+              phone: ''
+            })
     
         } catch (error) {
           console.log(error);

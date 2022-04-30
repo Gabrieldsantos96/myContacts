@@ -34,3 +34,32 @@ button {
 
   
 }
+
+.modal {
+  background-color: rgba(3, 3, 3, 0.5);
+  align-items: center;
+  justify-content: center;
+
+  position: fixed;
+
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.card_modal {
+  width: 476px;
+  height: 563px;
+  background-color: #FFFDFD;
+
+  position: relative;
+
+  border-radius: 10px;
+}
+
+.card_modal img {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}

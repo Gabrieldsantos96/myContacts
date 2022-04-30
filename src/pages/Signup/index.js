@@ -24,7 +24,7 @@ function Signup() {
      
      <div className="container container_signup">
        <div className="signup_left">
-         <div className="container_left">
+         <div  className="container_left">
       
                               
 

@@ -1,0 +1,39 @@
+.form_add_kontact {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.form_add_kontact h2 {
+  margin-top: 52px;
+  margin-bottom: 10px;
+}
+.form_add_kontact input {
+  width: 364px;
+  height: 51px;
+
+  background: #FDFAFA;
+  border: 1px solid #E8E8E8;
+  
+  margin: 16px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.form_add_kontact input:first-child {
+  margin-top: 32px;
+}
+
+.form_add_kontact button:first-of-type{
+  width: 364px;
+
+  background: #04C45C;
+  margin-top: 32px;
+}
+
+.form_add_kontact button:last-of-type{
+  width: 364px;
+ 
+  background: rgba(251, 6, 21, 0.65);
+  margin: 8px 0px 75px 0px;
+}
